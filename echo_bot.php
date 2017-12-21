@@ -34,11 +34,6 @@ foreach ($client->parseEvents() as $event) {
                             array(
                                 'type' => 'text',
                                 'text' => '歡迎來到熊大寶殿'
-                            ),
-                            array(
-                                'type' => 'sticker',
-                                'packageId' => $message['packageId'],
-                                'stickerId' => $message['stickerId']
                             )
                         )
                     ));
